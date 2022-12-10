@@ -1,0 +1,22 @@
+{
+  "name": "load-async-script",
+  "private": false,
+  "version": "1.0.0",
+  "main": "dist/bundle.es5.js",
+  "module": "dist/bundle.es5.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.7.1",
+    "rollup-plugin-filesize": "^9.1.2"
+  }
+}
