@@ -5,6 +5,20 @@
   "main": "dist/bundle.es5.js",
   "module": "dist/bundle.es5.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delowardev/load-async-script"
+  },
+  "bugs": {
+    "url": "https://github.com/delowardev/load-async-script/issues"
+  },
+  "keywords": [
+    "async script",
+    "script loader",
+    "load script",
+    "script load"
+  ],
+  "homepage": "https://github.com/delowardev/load-async-script",
   "files": [
     "dist"
   ],
