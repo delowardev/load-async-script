@@ -1,7 +1,7 @@
 {
   "name": "load-async-script",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/bundle.es5.js",
   "module": "dist/bundle.es5.js",
   "type": "module",
